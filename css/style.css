@@ -1,0 +1,33 @@
+body{
+	background: #A4AEB9;
+}
+
+#uploadForm{
+	width: 450px;
+	padding: 5px 0px 5px 5px;
+	margin-right: 5px;
+	background: #52708A;
+}
+
+.tempFieldLabel{
+	width: 200px;
+	display: inline-block;
+}
+
+#mapForm{
+	position: fixed;
+	top: 10%;
+	left: 40%;
+	padding: 10px;
+	background: #DCE5EC;
+}
+
+#mapSubmitButton{
+	position: absolute;
+	left: 40%;
+}
+
+#marketListWrapper {
+	max-width: 100% !important;
+	overflow-x: scroll;
+}
