@@ -38,11 +38,12 @@ function showForm($error="LOGIN"){
 <html>
 <head>
    <title>Micro Protector</title>
+   <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div id="main">
       <div class="caption"><?php echo $error; ?></div>
-      <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" name="pwd" id="loginForm">
+      <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" name="pwd" id="microForm">
         Password:
         <table>
           <tr><td><input class="text" name="passwd" type="password"/></td></tr>
