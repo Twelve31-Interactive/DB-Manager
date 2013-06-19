@@ -145,16 +145,4 @@ require_once 'mysql.php';
 
 	}
 
-
-/*
-
-example query
-
-SELECT  `Email` 
-FROM  `manage_list` 
-WHERE  `Physical_Address_City` LIKE  'Chicago'
-
-*/
-
-
 ?>
