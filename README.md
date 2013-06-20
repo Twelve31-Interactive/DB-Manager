@@ -30,8 +30,8 @@ ____________________________________________________________________________
 ____________________________________________________________________________
 
 - Exporter
-	-Validate that they did not unclick all the check boxes
-	-Files larger than 64MB do not export to the browser <<<<<<<<<<<<<<<<<<<<<<<<<<
+	- Validate that they did not unclick all the check boxes
+	- Files larger than 64MB do not export to the browser
 
 - Uploader
 	- Create a page for the user to FTP a file to a folder on the server
