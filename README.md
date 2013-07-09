@@ -12,7 +12,6 @@ __________________________________________________________________________
 
 //	Example Query
 /**********************************************************************************************************************
--
 -	LOAD DATA LOCAL INFILE 'FILE_PATH' INTO TABLE `manage_list`
 -  	FIELDS TERMINATED BY 'DELIMETER'
 -   	LINES TERMINATED BY '\n'
@@ -27,8 +26,7 @@ __________________________________________________________________________
 -	FIELDS TERMINATED BY '|'
 -	LINES TERMINATED BY '\n'
 -	IGNORE 1 LINES
--	(Full_Name , Company_Name , Standardized_Title , Physical_Address_Standardized , Phone_Number , First_Name , Last_Name , Physical_Address_City , Physical_Address_State , ZipCode , Email , Country)
--
+-	(`Full_Name` , `Company_Name` , `tandardized_Title` , `Physical_Address_Standardized` , `Phone_Number` , `First_Name` , `Last_Name`, `Physical_Address_City` , `Physical_Address_State` , `ZipCode` , `Email` , `Country`)
 /**********************************************************************************************************************
 
 ____________________________________________________________________________
