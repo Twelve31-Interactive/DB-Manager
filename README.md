@@ -12,16 +12,23 @@ __________________________________________________________________________
 
 //	Example Query
 /**********************************************************************************************************************
+-
 -	LOAD DATA LOCAL INFILE 'FILE_PATH' INTO TABLE `manage_list`
 -  	FIELDS TERMINATED BY 'DELIMETER'
--   LINES TERMINATED BY '\n'
+-   	LINES TERMINATED BY '\n'
 -	IGNORE 1 LINES
 -	    (`BusinessID` ,  `ExecutiveID` ,  `Company_Name` ,  `Full_Name` ,  `Prefix` ,  
 -		 `First_Name` ,  `Middle_Initial` ,  `Last_Name` ,  `Suffix` ,  `Standardized_Title` ,  
 -		 `Gender` ,  `Physical_Address_Standardized` ,  `Physical_Address_City` ,  `Physical_Address_State` ,  
 -		 `CBSA_Code` , `CBSA_Description` ,  `Email` ,  `Email_Available_Indicator` ,  `URL` ,  `EMAIL_SHA1` ,  
 -		 `Title_Base64` ,  `Company_Name_Base64` ,  `URL_Base64`) 
--> REWRITE THE LIST ABOVE SO IT MATCHES THE HEADER 0F THE FILE BEING INSERTED <-
+-
+-	LOAD DATA LOCAL INFILE '/var/www/html/lists/12-1.txt' INTO TABLE db_master_list
+-	FIELDS TERMINATED BY '|'
+-	LINES TERMINATED BY '\n'
+-	IGNORE 1 LINES
+-	(Full_Name , Company_Name , Standardized_Title , Physical_Address_Standardized , Phone_Number , First_Name , Last_Name , Physical_Address_City , Physical_Address_State , ZipCode , Email , Country)
+-
 /**********************************************************************************************************************
 
 ____________________________________________________________________________
