@@ -13,7 +13,7 @@ __________________________________________________________________________
 //	Example Query
 /**********************************************************************************************************************
 -	#1
-	LOAD DATA LOCAL INFILE 'FILE_PATH' INTO TABLE `manage_list`
+ -	LOAD DATA LOCAL INFILE 'FILE_PATH' INTO TABLE `manage_list`
   	FIELDS TERMINATED BY 'DELIMETER'
    	LINES TERMINATED BY '\n'
 	IGNORE 1 LINES
@@ -23,7 +23,7 @@ __________________________________________________________________________
 		 `CBSA_Code` , `CBSA_Description` ,  `Email` ,  `Email_Available_Indicator` ,  `URL` ,  `EMAIL_SHA1` ,  `Title_Base64` ,  `Company_Name_Base64` ,  `URL_Base64`) 
 
 -	#2
-	LOAD DATA LOCAL INFILE '/var/www/html/lists/12-1.txt' INTO TABLE db_master_list
+ -	LOAD DATA LOCAL INFILE '/var/www/html/lists/12-1.txt' INTO TABLE db_master_list
 	FIELDS TERMINATED BY '|'
 	LINES TERMINATED BY '\n'
 	IGNORE 1 LINES
