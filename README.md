@@ -17,11 +17,11 @@ __________________________________________________________________________
 -  	FIELDS TERMINATED BY 'DELIMETER'
 -   	LINES TERMINATED BY '\n'
 -	IGNORE 1 LINES
--	    (`BusinessID` ,  `ExecutiveID` ,  `Company_Name` ,  `Full_Name` ,  `Prefix` ,  
--		 `First_Name` ,  `Middle_Initial` ,  `Last_Name` ,  `Suffix` ,  `Standardized_Title` ,  
--		 `Gender` ,  `Physical_Address_Standardized` ,  `Physical_Address_City` ,  `Physical_Address_State` ,  
--		 `CBSA_Code` , `CBSA_Description` ,  `Email` ,  `Email_Available_Indicator` ,  `URL` ,  `EMAIL_SHA1` ,  `Title_Base64` ,  `Company_Name_Base64` ,  `URL_Base64`) 
--
+	    (`BusinessID` ,  `ExecutiveID` ,  `Company_Name` ,  `Full_Name` ,  `Prefix` ,  
+		 `First_Name` ,  `Middle_Initial` ,  `Last_Name` ,  `Suffix` ,  `Standardized_Title` ,  
+		 `Gender` ,  `Physical_Address_Standardized` ,  `Physical_Address_City` ,  `Physical_Address_State` ,  
+		 `CBSA_Code` , `CBSA_Description` ,  `Email` ,  `Email_Available_Indicator` ,  `URL` ,  `EMAIL_SHA1` ,  `Title_Base64` ,  `Company_Name_Base64` ,  `URL_Base64`) 
+
 -	#2
 -	LOAD DATA LOCAL INFILE '/var/www/html/lists/12-1.txt' INTO TABLE db_master_list
 -	FIELDS TERMINATED BY '|'
