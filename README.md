@@ -30,6 +30,9 @@ __________________________________________________________________________
 	(`Full_Name` , `Company_Name` , `tandardized_Title` , `Physical_Address_Standardized` , `Phone_Number` , `First_Name` , `Last_Name`, `Physical_Address_City` , `Physical_Address_State` , `ZipCode` , `Email` , `Country`)
 /**********************************************************************************************************************
 
+REMOVE local.local FROM URL_BASE64
+
+update db_master_list set `URL_Base64` = replace(`URL_Base64`,'bG9jYWwubG9jYWw=','')
 ____________________________________________________________________________
 							
 								**T0 D0**
